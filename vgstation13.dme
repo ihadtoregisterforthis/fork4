@@ -20,6 +20,7 @@
 #include "__DEFINES\hydro.dm"
 #include "__DEFINES\human.dm"
 #include "__DEFINES\human.dm"
+#include "__DEFINES\hydro.dm"
 #include "__DEFINES\lighting.dm"
 #include "__DEFINES\limb_defines.dm"
 #include "__DEFINES\math.dm"
