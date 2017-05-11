@@ -23,6 +23,10 @@
 
 	..()
 
+/mob/living/carbon/monkey/vox/skeletal
+	name = "skeleton chicken"
+	voice_name = "chicken skeleton"
+	icon_state = "chickenskeleton"
 
 /mob/living/carbon/monkey/vox/New()
 
@@ -33,6 +37,13 @@
 	alien = 1
 	eggsleft = rand(1,6)
 	set_hand_amount(1)
+
+/mob/living/carbon/monkey/vox/skeletal/New()
+
+	..()
+	dna.mutantrace = "skelevox"
+	greaterform = "Skeletal Vox"
+	eggsleft = 0
 
 /mob/living/carbon/monkey/vox/Life()
 	..()
